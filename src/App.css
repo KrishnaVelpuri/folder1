@@ -1,0 +1,41 @@
+
+footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 199%;
+  background-color: black;
+  color: aliceblue;
+}
+Body{
+  align-items: center;
+  background-color: rgb(43, 150, 100);
+  text-align: center;
+  padding-bottom: 5%;
+}
+li{
+  text-align: left;
+}
+
+.search {
+  text-align: center;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  align-items: normal;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;   /* Horizontal Space */
+  margin-bottom: 30px;  /* Vertical Space */
+  border: 2px;
+}
